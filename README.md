@@ -76,6 +76,8 @@ Watch the Pipelines with Microsoft Fabric Data Factory [here](https://youtu.be/t
 To complete the project, configure alerts using Data Activator. This will notify my team whenever key changes or updates occur within the dataset, ensuring real-time monitoring and immediate action when necessary. Watch Setting Alerts with Data Activator [here](https://youtu.be/RA5qM8DRxu8?si=zDBCOuf7pE6CLkAI)
 ![](data_activator.jpg)
 
+![](data_activator_with_team.png)
+
 ## Final Project Artifacts
 ![](project_artifacts.jpg)
 

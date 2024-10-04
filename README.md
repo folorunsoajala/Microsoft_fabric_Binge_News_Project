@@ -42,4 +42,16 @@ With the data ingested, the next task is to clean and transform the data using F
 - Step 1: Create a Notebook under the Data Engineering experience and connect it to the Lakehouse to access the ingested US 2024 election news in JSON format.
 - Step 2: Use the Notebook to perform data transformation. The goal is to clean the data and implement incremental loading using a Type 1 Slowly Changing Dimension (SCD) approach. This ensures that as new articles are added to the dataset, old data is replaced, keeping only the latest version without retaining historical changes.
 
-view my transformation code [here](https://github.com/folorunsoajala/Microsoft_fabric_Binge_News_Project/blob/main/Transformed_bing_news.ipynb) and video reference video [here](https://youtu.be/GyZ88fAKyBY?si=dRJzAN5sqS9nQi4M)
+view my transformation code [here](https://github.com/folorunsoajala/Microsoft_fabric_Binge_News_Project/blob/main/Transformed_bing_news.ipynb) and reference video [here](https://youtu.be/GyZ88fAKyBY?si=dRJzAN5sqS9nQi4M)
+
+![](data_transformation_with_fabric_notebbok.png)
+
+## Sentiment Analysis Using SynapseML
+Once the data is clean and ready, I apply machine learning to perform Sentiment Analysis on the news articles. For this, I leverage SynapseML, an open-source machine learning library within Microsoft Fabric.
+- Step 1: Using the AnalyzeText model, we analyze the sentiment of each news article’s description.
+- Step 2: The model classifies the sentiment into four categories: Positive, Negative, Neutral, and Mixed.
+To handle real-time updates, I ensure that the incremental loading process from the previous stage feeds new articles into the sentiment analysis model. This allows for a continuously up-to-date sentiment report.
+
+view my transformation code [here](https://github.com/folorunsoajala/Microsoft_fabric_Binge_News_Project/blob/main/News_sentiment_Analysis.ipynb) and reference video [here](https://youtu.be/-Ai4WwIabWI?si=9CHQZkdj6caL2Kz1)
+
+![](sentiment_analysis_with_fabric_notebook.jpg)

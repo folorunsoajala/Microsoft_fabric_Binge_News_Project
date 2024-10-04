@@ -61,7 +61,7 @@ view my Sentiment analysis code [here](https://github.com/folorunsoajala/Microso
 Now that the sentiment analysis is complete, it’s time to visualize the insights. Power BI will be used to create dynamic reports showcasing the sentiment of the latest news articles.
 - Step 1: Connect Power BI to the Lakehouse and visualize the data.
 - Step 2: Create charts that reflect sentiment trends over time, providing a powerful visual summary of how public sentiment around the US 2024 election evolves with each news update.
-For example, as of August 2024, over 100 news articles were analyzed, with no articles classified under Positive Sentiment, offering a unique perspective on the election narrative.
+For example, as of October 2024, over 100 news articles were analyzed, with 1.19% articles classified under Positive Sentiment, offering a unique perspective on the election narrative.
 
 Watch the Data Visualization and Reporting video [here](https://youtu.be/sZnlJXO4Fx8?si=aujnL9ZXRged9nYv)
 ![](dashboard.png)

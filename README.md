@@ -52,6 +52,24 @@ Once the data is clean and ready, I apply machine learning to perform Sentiment 
 - Step 2: The model classifies the sentiment into four categories: Positive, Negative, Neutral, and Mixed.
 To handle real-time updates, I ensure that the incremental loading process from the previous stage feeds new articles into the sentiment analysis model. This allows for a continuously up-to-date sentiment report.
 
-view my transformation code [here](https://github.com/folorunsoajala/Microsoft_fabric_Binge_News_Project/blob/main/News_sentiment_Analysis.ipynb) and reference video [here](https://youtu.be/-Ai4WwIabWI?si=9CHQZkdj6caL2Kz1)
+view my Sentiment analysis code [here](https://github.com/folorunsoajala/Microsoft_fabric_Binge_News_Project/blob/main/News_sentiment_Analysis.ipynb) and reference video [here](https://youtu.be/-Ai4WwIabWI?si=9CHQZkdj6caL2Kz1)
 
 ![](sentiment_analysis_with_fabric_notebook.jpg)
+
+
+## Data Visualization and Reporting in Power BI
+Now that the sentiment analysis is complete, it’s time to visualize the insights. Power BI will be used to create dynamic reports showcasing the sentiment of the latest news articles.
+- Step 1: Connect Power BI to the Lakehouse and visualize the data.
+- Step 2: Create charts that reflect sentiment trends over time, providing a powerful visual summary of how public sentiment around the US 2024 election evolves with each news update.
+For example, as of August 2024, over 100 news articles were analyzed, with no articles classified under Positive Sentiment, offering a unique perspective on the election narrative.
+
+Watch the Data Visualization and Reporting video [here](https://youtu.be/sZnlJXO4Fx8?si=aujnL9ZXRged9nYv)
+
+
+## Building Pipelines with Microsoft Fabric Data Factory
+Finally, I use Microsoft Fabric data Factory to automate the ingestion, transformation, and analysis pipeline. This ensures that all processes, from data ingestion to visualization, run seamlessly in a fully automated fashion.
+![](pipeline.jpg)
+
+Watch the Pipelines with Microsoft Fabric Data Factory [here](https://youtu.be/thgkLSpI27c?si=bITbUZJTCDSTQCP5)
+
+

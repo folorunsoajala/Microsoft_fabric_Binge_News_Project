@@ -29,4 +29,17 @@ Once my  Lakehouse is ready, the next step is to ingest data into it using Micro
 The data source will be the REST API, and the destination will be the Lakehouse created earlier. Set the data format as JSON to store the news articles in a file section of the Lakehouse.
 - Step 3: After configuring the API and data destinations, save and run the pipeline to ingest the data into the Lakehouse.
 
+![](fabric_lakehouse.png)
 
+![](fabric_rest_api_connector.png)
+
+![](fabric_data_factory_connector.png)
+
+Watch the data ingestion video [here](https://youtu.be/tJTXWMhfln8?si=GNFwKzXrkyXb2p73)
+
+## Data Transformation and Incremental Loading
+With the data ingested, the next task is to clean and transform the data using Fabric's Notebook.
+- Step 1: Create a Notebook under the Data Engineering experience and connect it to the Lakehouse to access the ingested US 2024 election news in JSON format.
+- Step 2: Use the Notebook to perform data transformation. The goal is to clean the data and implement incremental loading using a Type 1 Slowly Changing Dimension (SCD) approach. This ensures that as new articles are added to the dataset, old data is replaced, keeping only the latest version without retaining historical changes.
+
+view my transformation code [here](https://github.com/folorunsoajala/Microsoft_fabric_Binge_News_Project/blob/main/Transformed_bing_news.ipynb) and video reference video [here](https://youtu.be/GyZ88fAKyBY?si=dRJzAN5sqS9nQi4M)

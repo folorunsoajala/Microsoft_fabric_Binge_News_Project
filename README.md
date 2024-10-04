@@ -73,7 +73,7 @@ Finally, I use Microsoft Fabric data Factory to automate the ingestion, transfor
 Watch the Pipelines with Microsoft Fabric Data Factory [here](https://youtu.be/thgkLSpI27c?si=bITbUZJTCDSTQCP5)
 
 ## Setting Alerts with Data Activator
-To complete the project, configure alerts using Data Activator. This will notify my team whenever key changes or updates occur within the dataset, ensuring real-time monitoring and immediate action when necessary.
+To complete the project, configure alerts using Data Activator. This will notify my team whenever key changes or updates occur within the dataset, ensuring real-time monitoring and immediate action when necessary. Watch Setting Alerts with Data Activator [here](https://youtu.be/RA5qM8DRxu8?si=zDBCOuf7pE6CLkAI)
 ![](data_activator.jpg)
 
 ## Final Project Artifacts

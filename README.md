@@ -64,7 +64,7 @@ Now that the sentiment analysis is complete, it’s time to visualize the insigh
 For example, as of August 2024, over 100 news articles were analyzed, with no articles classified under Positive Sentiment, offering a unique perspective on the election narrative.
 
 Watch the Data Visualization and Reporting video [here](https://youtu.be/sZnlJXO4Fx8?si=aujnL9ZXRged9nYv)
-
+![](dashboard.png)
 
 ## Building Pipelines with Microsoft Fabric Data Factory
 Finally, I use Microsoft Fabric data Factory to automate the ingestion, transformation, and analysis pipeline. This ensures that all processes, from data ingestion to visualization, run seamlessly in a fully automated fashion.

@@ -81,5 +81,3 @@ To complete the project, configure alerts using Data Activator. This will notify
 ## Final Project Artifacts
 ![](project_artifacts.jpg)
 
-## The Us Election 2024 sentiment analysis conclusion 
-![](us_2024_election.png)
